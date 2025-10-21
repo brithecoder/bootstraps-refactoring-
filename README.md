@@ -1,15 +1,10 @@
 # Reflection Questions
 
-### How did using Figma designs as references affect your coding process?
-The Figma designs helped me visualize how to set up my code. Actually seeing how elements looked while active helped me execute the design.
+### What challenges did you face when refactoring your code to use Bootstrap?
+A challenge that I faced while refactoring my code is learning how to use the inline styling that were specific to Bootstrap. I mostly googled how to do a certain thing while in Bootstraps.
 
-### What challenges did you encounter when aligning your code with the design specifications?
-Challenges I encountered consisted of making sure my divs and containers were aligned correctly and making sure everything was accessibility compliant. 
+### How did using Bootstrap utility classes and components simplify your styling process?
+It simplified my work by allowing me to plug in the project specific information to pre made components where I didn’t have to worry about making the component responsive and any extra details I need to make costume I was able to execute using inline styling.
 
-### How can the feedback and community resources on Frontend Mentor help you improve as a developer?
-Feedback and community resources can help when you are stuck on a problem during a challenge. You could reach out to someone in the community and see if they are also having problems.You can also see how others are executing their code and maybe you will find a more efficient solution and figure out how to implement it for yourself or refactor your code. 
-
-## Application SnapShots 
-
-![Screen shot of QR Code](images/qrCodeSS.png?raw=true)
-![Screen shot of blog Card](images/blogCardSS.png?raw=true)
+### In what scenarios might you choose not to use Bootstrap and write custom CSS instead?
+You might have to write custom css while using pseudo-class functionality like on hover or on click. 
