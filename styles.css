@@ -1,0 +1,113 @@
+
+/*
+css styles for QR code and blog card sections
+*/
+
+
+/* General styles for both sections*/
+.section-qr-code .section-blog-card-code{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px; 
+}
+.img-container{
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    object-fit: contain;
+}
+
+h1{
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    color: #333;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+p{
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* Specific styles for QR section */
+.section-qr-code{
+    background-color: gray;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+  .image-qr-code {
+    max-width: 100%;
+    height:auto; 
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+} 
+
+
+  /* Specific styles for Blog section */
+  .blog-card-cotainer{
+    border: 2px solid black;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.9);
+}
+ .section-blog-card-code{
+    padding-top: 20px;
+    background-color: #F4D04D;
+    padding-bottom: 20px;
+}
+.image-blog-card{
+    max-width: 100%;
+    height:auto; 
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+ }
+.blog-title:hover{
+    color: #F4D04D;
+ }
+.bg-text{
+    text-align: left;
+    font-family: "Figtree", sans-serif;
+    font-style: normal;
+}
+.publish-date{
+    font-size: smaller;
+    font-weight: 400;
+    color: black;
+ }
+.blog-card-badge{
+    background-color: #F4D04D;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-family: "Figtree", sans-serif;
+ }
+ .author-image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+ }
+ 
+ /*bootstaps card */
+ .card-title:hover{
+    color: #F4D04D;
+ }
